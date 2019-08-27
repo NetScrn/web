@@ -1,6 +1,9 @@
 {
   "name": "test-web",
   "private": true,
+  "workspaces": [
+    "frontend/**"
+  ],
   "scripts": {
     "gateway:dev": "yarn workspace @backend/gateway dev",
     "typecheck": "lerna run typecheck",
